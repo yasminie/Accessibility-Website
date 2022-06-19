@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="t1.css">
+    <link rel="stylesheet" href="/css/master.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Update a Location</title>
+  </head>
+  <form>
+    <div class="form-group">
+      <label for="locationUpdate">Location</label>
+      <input type="text" class="form-control" id="locationUpdate" aria-describedby="emailHelp" placeholder="Enter location">
+    </div>
+    <div class="form-group">
+        <label for="functionUpdate">Broken or Fixed?</label>
+        <select class="form-control" id="functionUpdate">
+          <option>Broken</option>
+          <option>Fixed</option>
+        </select>
+      </div>
+    <div class="form-group">
+         <label for="optionUpdate">What accessibility option has been affected?</label>
+         <select class="form-control" id="optionUpdate">
+          <option>Elevator</option>
+          <option>Ramp</option>
+          <option>Staff Assistance</option>
+          <option>Wheelchair Lift</option>
+          <option>There are no options</option>
+          <option>Other</option>
+        </select>
+       </div>
+    <div class="form-group">
+      <label for="additionalComment">Additional Details?:</label>
+      <input type="text" class="form-control" id="additionalComment" placeholder="Write any additional details here">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</html>
